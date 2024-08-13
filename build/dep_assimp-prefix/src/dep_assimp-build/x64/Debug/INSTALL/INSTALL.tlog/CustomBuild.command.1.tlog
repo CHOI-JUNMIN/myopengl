@@ -1,0 +1,10 @@
+^C:\USERS\PUBLIC\MYOPENGL\BUILD\DEP_ASSIMP-PREFIX\SRC\DEP_ASSIMP-BUILD\CMAKEFILES\B69C601E2D53AA16838C7D35FBB5A571\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/dep_glfw"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/3045b5bd643017d588c125efe9092d38/dep_glfw.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/8d29c4ccee4e87f3f81a87c4d3b8e324/dep_glfw-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/1685ec43a8ae394ce7002f647dd7c2d7/dep_glfw-build.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/1685ec43a8ae394ce7002f647dd7c2d7/dep_glfw-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/1685ec43a8ae394ce7002f647dd7c2d7/dep_glfw-download.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/1685ec43a8ae394ce7002f647dd7c2d7/dep_glfw-install.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/1685ec43a8ae394ce7002f647dd7c2d7/dep_glfw-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/1685ec43a8ae394ce7002f647dd7c2d7/dep_glfw-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/1685ec43a8ae394ce7002f647dd7c2d7/dep_glfw-test.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/1685ec43a8ae394ce7002f647dd7c2d7/dep_glfw-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glfw"
+		],
+		"name" : "dep_glfw"
+	}
+}

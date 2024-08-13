@@ -1,0 +1,14 @@
+# Target labels
+ dep_glad
+# Source files and their labels
+C:/Users/Public/myopengl/build/CMakeFiles/dep_glad
+C:/Users/Public/myopengl/build/CMakeFiles/3045b5bd643017d588c125efe9092d38/dep_glad.rule
+C:/Users/Public/myopengl/build/CMakeFiles/8d29c4ccee4e87f3f81a87c4d3b8e324/dep_glad-complete.rule
+C:/Users/Public/myopengl/build/CMakeFiles/00f7383d6cb9e3e4f0e4f431d5abe68f/dep_glad-build.rule
+C:/Users/Public/myopengl/build/CMakeFiles/00f7383d6cb9e3e4f0e4f431d5abe68f/dep_glad-configure.rule
+C:/Users/Public/myopengl/build/CMakeFiles/00f7383d6cb9e3e4f0e4f431d5abe68f/dep_glad-download.rule
+C:/Users/Public/myopengl/build/CMakeFiles/00f7383d6cb9e3e4f0e4f431d5abe68f/dep_glad-install.rule
+C:/Users/Public/myopengl/build/CMakeFiles/00f7383d6cb9e3e4f0e4f431d5abe68f/dep_glad-mkdir.rule
+C:/Users/Public/myopengl/build/CMakeFiles/00f7383d6cb9e3e4f0e4f431d5abe68f/dep_glad-patch.rule
+C:/Users/Public/myopengl/build/CMakeFiles/00f7383d6cb9e3e4f0e4f431d5abe68f/dep_glad-test.rule
+C:/Users/Public/myopengl/build/CMakeFiles/00f7383d6cb9e3e4f0e4f431d5abe68f/dep_glad-update.rule

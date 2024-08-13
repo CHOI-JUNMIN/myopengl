@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\00f7383d6cb9e3e4f0e4f431d5abe68f\dep_glad-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\00f7383d6cb9e3e4f0e4f431d5abe68f\dep_glad-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\00f7383d6cb9e3e4f0e4f431d5abe68f\dep_glad-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\00f7383d6cb9e3e4f0e4f431d5abe68f\dep_glad-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\00f7383d6cb9e3e4f0e4f431d5abe68f\dep_glad-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\00f7383d6cb9e3e4f0e4f431d5abe68f\dep_glad-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\00f7383d6cb9e3e4f0e4f431d5abe68f\dep_glad-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\00f7383d6cb9e3e4f0e4f431d5abe68f\dep_glad-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\8d29c4ccee4e87f3f81a87c4d3b8e324\dep_glad-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\3045b5bd643017d588c125efe9092d38\dep_glad.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Public\myopengl\build\CMakeFiles\dep_glad" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{04608C4D-AC09-3304-B1F1-6F7262BD5752}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\PUBLIC\MYOPENGL\BUILD\DEP_GLM-PREFIX\SRC\DEP_GLM\TEST\GTC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm -BC:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm-build --check-stamp-file C:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm-build/test/gtc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,7 @@
+C:/Users/Public/myopengl/build/CMakeFiles/dep_glad.dir
+C:/Users/Public/myopengl/build/CMakeFiles/dep_glfw.dir
+C:/Users/Public/myopengl/build/CMakeFiles/dep_assimp.dir
+C:/Users/Public/myopengl/build/CMakeFiles/dep_glm.dir
+C:/Users/Public/myopengl/build/CMakeFiles/opengl_example.dir
+C:/Users/Public/myopengl/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Public/myopengl/build/CMakeFiles/ZERO_CHECK.dir

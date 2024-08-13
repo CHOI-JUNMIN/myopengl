@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4F8D30DF-EE4C-38B8-A665-5899C1379336}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm -BC:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm-build --check-stamp-file C:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm -BC:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm-build --check-stamp-file C:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm -BC:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm-build --check-stamp-file C:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm -BC:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm-build --check-stamp-file C:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\ZERO_CHECK.vcxproj">
+      <Project>{A4A69192-5983-3A91-9862-A1BE3ED053DF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\glm\glm_shared.vcxproj">
+      <Project>{0E96A055-2E89-3E12-BA83-29C2B2697EB2}</Project>
+      <Name>glm_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\glm\glm_static.vcxproj">
+      <Project>{58F9748B-7335-3BBB-B250-D27ADB525FF8}</Project>
+      <Name>glm_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\bug\test-bug_ms_vec_static.vcxproj">
+      <Project>{33630ABE-09F3-3017-9CDE-A0D07B2F7BA8}</Project>
+      <Name>test-bug_ms_vec_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_cpp_constexpr.vcxproj">
+      <Project>{5374EC0B-637C-3392-A2FD-B1DB0B288B0A}</Project>
+      <Name>test-core_cpp_constexpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_cpp_defaulted_ctor.vcxproj">
+      <Project>{B7C74BAE-2D27-3F55-8F60-C9A6C8CAC541}</Project>
+      <Name>test-core_cpp_defaulted_ctor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_aligned_gentypes.vcxproj">
+      <Project>{48766D1E-1ABC-3E33-AB38-8B41FD6D586E}</Project>
+      <Name>test-core_force_aligned_gentypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_arch_unknown.vcxproj">
+      <Project>{73DBB935-15F4-30E3-A3DF-41261D4A59C3}</Project>
+      <Name>test-core_force_arch_unknown</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_compiler_unknown.vcxproj">
+      <Project>{EC69C038-EFD3-3275-9BC6-59FB395A6876}</Project>
+      <Name>test-core_force_compiler_unknown</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_ctor_init.vcxproj">
+      <Project>{027CD79E-339D-306B-8BAB-AC5E206DC89C}</Project>
+      <Name>test-core_force_ctor_init</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_cxx03.vcxproj">
+      <Project>{23A742D8-2E4A-32E0-B917-55BD782EEEC3}</Project>
+      <Name>test-core_force_cxx03</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_cxx98.vcxproj">
+      <Project>{248D5C8B-5C68-3ED6-96F1-52586CC113E8}</Project>
+      <Name>test-core_force_cxx98</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_cxx_unknown.vcxproj">
+      <Project>{974AF417-6FF2-306B-9B8C-85CE872D900B}</Project>
+      <Name>test-core_force_cxx_unknown</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_explicit_ctor.vcxproj">
+      <Project>{67757701-148C-3E69-B2ED-01B003514A43}</Project>
+      <Name>test-core_force_explicit_ctor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_inline.vcxproj">
+      <Project>{AB5498E9-304A-39B4-97CD-8E8B3ED20338}</Project>
+      <Name>test-core_force_inline</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_platform_unknown.vcxproj">
+      <Project>{D9CF41A8-C760-37B3-A4FA-097FBF5FEC11}</Project>
+      <Name>test-core_force_platform_unknown</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_pure.vcxproj">
+      <Project>{FB072440-0401-36F7-B7B6-FD7A9FF3469F}</Project>
+      <Name>test-core_force_pure</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_quat_wxyz.vcxproj">
+      <Project>{C4B8E790-151A-315B-BAAF-A5EF6F04F347}</Project>
+      <Name>test-core_force_quat_wxyz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_unrestricted_gentype.vcxproj">
+      <Project>{D7B4F85D-6004-3D7D-BA2F-8F57982662BF}</Project>
+      <Name>test-core_force_unrestricted_gentype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_force_xyzw_only.vcxproj">
+      <Project>{9881F93E-4356-37E1-A201-654AEE1BBD07}</Project>
+      <Name>test-core_force_xyzw_only</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_common.vcxproj">
+      <Project>{B0DB1ECB-6800-3700-88CD-22D458C00270}</Project>
+      <Name>test-core_func_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_exponential.vcxproj">
+      <Project>{8C4DDF7B-66DD-3FD4-B251-485D2820E7C1}</Project>
+      <Name>test-core_func_exponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_geometric.vcxproj">
+      <Project>{DACFF1AB-96BF-3011-A635-E1E9B95D3EBF}</Project>
+      <Name>test-core_func_geometric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_integer.vcxproj">
+      <Project>{FB0C9E8A-2147-3509-84EF-D1D7D74F9608}</Project>
+      <Name>test-core_func_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_integer_bit_count.vcxproj">
+      <Project>{C5CCFFC5-C6AD-3173-9BCD-337F2E8B59CD}</Project>
+      <Name>test-core_func_integer_bit_count</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_integer_find_lsb.vcxproj">
+      <Project>{801287D2-C8B9-30FD-BC6A-EF9090872712}</Project>
+      <Name>test-core_func_integer_find_lsb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_integer_find_msb.vcxproj">
+      <Project>{B7C5AA7C-AA24-3D55-B66A-14AD8DE4816F}</Project>
+      <Name>test-core_func_integer_find_msb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_matrix.vcxproj">
+      <Project>{BAB04F97-5A6E-3DFE-9729-914CD2875F60}</Project>
+      <Name>test-core_func_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_noise.vcxproj">
+      <Project>{FC126C07-0919-319F-95AF-E64FDA845485}</Project>
+      <Name>test-core_func_noise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_packing.vcxproj">
+      <Project>{09255729-88FD-300C-857C-EC8FBA293162}</Project>
+      <Name>test-core_func_packing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_swizzle.vcxproj">
+      <Project>{4DE8F90F-EF15-3212-91F9-54EE4C10CEE8}</Project>
+      <Name>test-core_func_swizzle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_trigonometric.vcxproj">
+      <Project>{F579564A-200E-3458-AD7E-4D9516ADED64}</Project>
+      <Name>test-core_func_trigonometric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_func_vector_relational.vcxproj">
+      <Project>{C2434CB5-AE67-34E7-AE33-A9B3D831F5E2}</Project>
+      <Name>test-core_func_vector_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_setup_force_cxx98.vcxproj">
+      <Project>{855D132F-6864-394A-B505-AE6D2C3F1FAC}</Project>
+      <Name>test-core_setup_force_cxx98</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_setup_force_size_t_length.vcxproj">
+      <Project>{6F10EC40-3E63-31EA-B9C4-EF71F756D292}</Project>
+      <Name>test-core_setup_force_size_t_length</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_setup_message.vcxproj">
+      <Project>{13134220-77C0-3C7B-9E10-3C4378ED3D0B}</Project>
+      <Name>test-core_setup_message</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_setup_platform_unknown.vcxproj">
+      <Project>{4A0E9D72-20C5-3CBD-A3C2-D081E0DE1D82}</Project>
+      <Name>test-core_setup_platform_unknown</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_setup_precision.vcxproj">
+      <Project>{2F3E1812-25D6-3F3D-9855-DFF36372605C}</Project>
+      <Name>test-core_setup_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_aligned.vcxproj">
+      <Project>{D06FFEF1-25BB-38DC-98A2-FFAAEC3A4F66}</Project>
+      <Name>test-core_type_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_cast.vcxproj">
+      <Project>{428EF3D6-A7DA-34E1-9E6C-0A3FFC8C0193}</Project>
+      <Name>test-core_type_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_ctor.vcxproj">
+      <Project>{F7C39FF5-6958-3F2D-BFAA-D969E3315FF2}</Project>
+      <Name>test-core_type_ctor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_int.vcxproj">
+      <Project>{2F4C3AB4-5631-3C2E-8F11-A4C648DEF91F}</Project>
+      <Name>test-core_type_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_length.vcxproj">
+      <Project>{8FCAC4B4-6371-322F-B2DD-5D4C582E3E03}</Project>
+      <Name>test-core_type_length</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_mat2x2.vcxproj">
+      <Project>{824A285E-292C-3AE8-B28E-FBEE6A34F1DB}</Project>
+      <Name>test-core_type_mat2x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_mat2x3.vcxproj">
+      <Project>{A0A4EA50-A081-3CCF-9788-30782AF67453}</Project>
+      <Name>test-core_type_mat2x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_mat2x4.vcxproj">
+      <Project>{913BAA61-3F66-3290-B85F-C24670C46271}</Project>
+      <Name>test-core_type_mat2x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_mat3x2.vcxproj">
+      <Project>{F3973B77-BA82-3AC8-AE9F-89ABFFE2E4BB}</Project>
+      <Name>test-core_type_mat3x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_mat3x3.vcxproj">
+      <Project>{92F09D7C-8B61-3E6C-8AA6-1BA63495E3E5}</Project>
+      <Name>test-core_type_mat3x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_mat3x4.vcxproj">
+      <Project>{CBBE57F5-8AE6-3A76-A6E0-365787F3E4BF}</Project>
+      <Name>test-core_type_mat3x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_mat4x2.vcxproj">
+      <Project>{49C576B2-FF13-321D-AFA7-E3B8207C0065}</Project>
+      <Name>test-core_type_mat4x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_mat4x3.vcxproj">
+      <Project>{DB0A553B-6F9D-3E0D-BDE5-0BB297AB5EE9}</Project>
+      <Name>test-core_type_mat4x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_mat4x4.vcxproj">
+      <Project>{A8183A9E-374D-30FF-8E0A-988AEA602D0D}</Project>
+      <Name>test-core_type_mat4x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_vec1.vcxproj">
+      <Project>{28F34154-479D-3183-9764-5342420749E3}</Project>
+      <Name>test-core_type_vec1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_vec2.vcxproj">
+      <Project>{CFDEA3EC-302F-3274-831B-E4DEEEC88772}</Project>
+      <Name>test-core_type_vec2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_vec3.vcxproj">
+      <Project>{17EA5D80-E89F-32F2-94AB-5DBF377FF1E4}</Project>
+      <Name>test-core_type_vec3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\core\test-core_type_vec4.vcxproj">
+      <Project>{CC9849C5-DA87-37C1-A514-9341B2C81931}</Project>
+      <Name>test-core_type_vec4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_common.vcxproj">
+      <Project>{54C679AA-9D1C-3487-86EF-A7F4771A7FEE}</Project>
+      <Name>test-ext_matrix_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_int2x2_sized.vcxproj">
+      <Project>{A93A2357-C2C2-3812-A485-071D00AAAAB2}</Project>
+      <Name>test-ext_matrix_int2x2_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_int2x3_sized.vcxproj">
+      <Project>{4F689D9F-C616-38BB-A7F2-A23D7AFBBCAF}</Project>
+      <Name>test-ext_matrix_int2x3_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_int2x4_sized.vcxproj">
+      <Project>{C209B6A6-9BA9-39A4-8A7F-F9DCD1DB691C}</Project>
+      <Name>test-ext_matrix_int2x4_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_int3x2_sized.vcxproj">
+      <Project>{03A6AE5C-31C8-315C-8FAA-D5869D8C0E26}</Project>
+      <Name>test-ext_matrix_int3x2_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_int3x3_sized.vcxproj">
+      <Project>{65275CD4-110A-3BA9-9B3B-5999239198A0}</Project>
+      <Name>test-ext_matrix_int3x3_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_int3x4_sized.vcxproj">
+      <Project>{6A8E5015-BC1F-3919-AEEC-24D99D0CE5CC}</Project>
+      <Name>test-ext_matrix_int3x4_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_int4x2_sized.vcxproj">
+      <Project>{15FC38D7-8554-3B16-9ED7-57CE38690292}</Project>
+      <Name>test-ext_matrix_int4x2_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_int4x3_sized.vcxproj">
+      <Project>{5ACE4400-B892-3835-9313-A062EABACD75}</Project>
+      <Name>test-ext_matrix_int4x3_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_int4x4_sized.vcxproj">
+      <Project>{AE931CB2-E1DA-3F1C-A283-77013752962C}</Project>
+      <Name>test-ext_matrix_int4x4_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_relational.vcxproj">
+      <Project>{51CAAAA9-300E-3C9F-A3DA-401F3F26633E}</Project>
+      <Name>test-ext_matrix_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_transform.vcxproj">
+      <Project>{D200C435-1365-3370-9FD5-A0DF828AE321}</Project>
+      <Name>test-ext_matrix_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_uint2x2_sized.vcxproj">
+      <Project>{AFA36762-F1D0-3BB0-96AA-DF5279DF46D1}</Project>
+      <Name>test-ext_matrix_uint2x2_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_uint2x3_sized.vcxproj">
+      <Project>{E89DF894-17E5-37EA-9C2E-AB8F5B6D8A0F}</Project>
+      <Name>test-ext_matrix_uint2x3_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_uint2x4_sized.vcxproj">
+      <Project>{0D74E442-F0F5-396E-B0F8-5B217243EC9B}</Project>
+      <Name>test-ext_matrix_uint2x4_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_uint3x2_sized.vcxproj">
+      <Project>{2271149F-8E15-37C4-AE86-0DBA4EFBFE13}</Project>
+      <Name>test-ext_matrix_uint3x2_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_uint3x3_sized.vcxproj">
+      <Project>{5B59291E-5B86-39A0-963C-9FDCEFAD3B8E}</Project>
+      <Name>test-ext_matrix_uint3x3_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_uint3x4_sized.vcxproj">
+      <Project>{263E60CC-76D0-3E89-813B-58F20796CAEF}</Project>
+      <Name>test-ext_matrix_uint3x4_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_uint4x2_sized.vcxproj">
+      <Project>{6CC94921-1DD3-32B3-97E0-2F03D96E0358}</Project>
+      <Name>test-ext_matrix_uint4x2_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_uint4x3_sized.vcxproj">
+      <Project>{B4E562C9-98F6-3628-A904-64250B1D0E45}</Project>
+      <Name>test-ext_matrix_uint4x3_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_matrix_uint4x4_sized.vcxproj">
+      <Project>{9082B69E-BCBA-3364-A951-84BD3F508E65}</Project>
+      <Name>test-ext_matrix_uint4x4_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_quaternion_common.vcxproj">
+      <Project>{C878B0B6-95F8-34CB-B340-CC36E8B56FC3}</Project>
+      <Name>test-ext_quaternion_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_quaternion_exponential.vcxproj">
+      <Project>{8CE941DE-DC52-3D42-8A18-4F627DF1F827}</Project>
+      <Name>test-ext_quaternion_exponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_quaternion_geometric.vcxproj">
+      <Project>{C1855B90-F9A4-3952-AFFA-515CF79F3D5D}</Project>
+      <Name>test-ext_quaternion_geometric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_quaternion_relational.vcxproj">
+      <Project>{3B4947E4-78BF-346A-A4FE-0139359886B0}</Project>
+      <Name>test-ext_quaternion_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_quaternion_transform.vcxproj">
+      <Project>{683CE18C-786A-30F3-BB67-5EDF15B6D621}</Project>
+      <Name>test-ext_quaternion_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_quaternion_trigonometric.vcxproj">
+      <Project>{FFEFEC62-6FD7-35DC-B0DE-9BDB2C5A6B8F}</Project>
+      <Name>test-ext_quaternion_trigonometric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_quaternion_type.vcxproj">
+      <Project>{42698F4E-04B8-3132-BF2A-CC4629AE1882}</Project>
+      <Name>test-ext_quaternion_type</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_scalar_common.vcxproj">
+      <Project>{978B5C55-4902-3BDA-8E11-6FAD1DBD4345}</Project>
+      <Name>test-ext_scalar_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_scalar_constants.vcxproj">
+      <Project>{CE52D80E-5C4F-33DD-AC99-94EEC02F6F49}</Project>
+      <Name>test-ext_scalar_constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_scalar_int_sized.vcxproj">
+      <Project>{527C8353-FF17-37FD-BCF7-AE27701C35C8}</Project>
+      <Name>test-ext_scalar_int_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_scalar_integer.vcxproj">
+      <Project>{4E85F160-5001-3ED6-8BD5-F3AD163AC89A}</Project>
+      <Name>test-ext_scalar_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_scalar_relational.vcxproj">
+      <Project>{D1F59025-CFCC-3A30-8BD1-827BEF64C463}</Project>
+      <Name>test-ext_scalar_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_scalar_uint_sized.vcxproj">
+      <Project>{FE812F4D-4165-3357-8C56-76B1D689D578}</Project>
+      <Name>test-ext_scalar_uint_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_scalar_ulp.vcxproj">
+      <Project>{36C06F30-81D0-335D-AA2F-0F16A309C3B0}</Project>
+      <Name>test-ext_scalar_ulp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vec1.vcxproj">
+      <Project>{D1F7DC6C-1DAB-38F5-AF57-8941EEE93649}</Project>
+      <Name>test-ext_vec1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_bool1.vcxproj">
+      <Project>{1DBAAEB4-5645-3471-B097-24D755D7D8B3}</Project>
+      <Name>test-ext_vector_bool1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_common.vcxproj">
+      <Project>{DE3B67D5-A8DC-3496-BCFE-1E372A037FFA}</Project>
+      <Name>test-ext_vector_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_iec559.vcxproj">
+      <Project>{3BFDE8F6-1CE6-3B4D-A18C-1A0C51C66234}</Project>
+      <Name>test-ext_vector_iec559</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_int1_sized.vcxproj">
+      <Project>{1FB62A92-0127-3ECF-B22E-F4B044341481}</Project>
+      <Name>test-ext_vector_int1_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_int2_sized.vcxproj">
+      <Project>{D9E202B2-821F-3151-B4FF-C6D117280B0E}</Project>
+      <Name>test-ext_vector_int2_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_int3_sized.vcxproj">
+      <Project>{CA03C474-9F2E-3D48-8B86-550370165A75}</Project>
+      <Name>test-ext_vector_int3_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_int4_sized.vcxproj">
+      <Project>{A64EE2F2-063B-37A3-A284-A09C14CFC84C}</Project>
+      <Name>test-ext_vector_int4_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_integer.vcxproj">
+      <Project>{DA32D115-2BF1-3BB4-8E48-1DE2510AC737}</Project>
+      <Name>test-ext_vector_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_integer_sized.vcxproj">
+      <Project>{6A5F412F-E89C-3F31-AE28-28A420F3B991}</Project>
+      <Name>test-ext_vector_integer_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_relational.vcxproj">
+      <Project>{00DCB808-854A-38F5-A27A-6D68E4C02FD9}</Project>
+      <Name>test-ext_vector_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_uint1_sized.vcxproj">
+      <Project>{584E62CD-0198-36F7-B50F-B48F66D25458}</Project>
+      <Name>test-ext_vector_uint1_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_uint2_sized.vcxproj">
+      <Project>{E511B1DB-985D-3807-B2FD-80749ACC27A0}</Project>
+      <Name>test-ext_vector_uint2_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_uint3_sized.vcxproj">
+      <Project>{5A5871B2-D434-33E7-A9D8-4DC8B5502217}</Project>
+      <Name>test-ext_vector_uint3_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_uint4_sized.vcxproj">
+      <Project>{6A0C8FB8-9E29-3F7F-AFA9-DB7D5D68C3A9}</Project>
+      <Name>test-ext_vector_uint4_sized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\ext\test-ext_vector_ulp.vcxproj">
+      <Project>{9BA8105F-711A-38B2-85AC-21000ED78910}</Project>
+      <Name>test-ext_vector_ulp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_bitfield.vcxproj">
+      <Project>{6EFC5D31-F48E-3701-A18A-98BC4591FC0B}</Project>
+      <Name>test-gtc_bitfield</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_color_space.vcxproj">
+      <Project>{DB09CB54-6ACF-3C03-A39C-284C2947252B}</Project>
+      <Name>test-gtc_color_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_constants.vcxproj">
+      <Project>{D6CB22D6-651F-3B4A-A9CB-D5FA8E9AC296}</Project>
+      <Name>test-gtc_constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_epsilon.vcxproj">
+      <Project>{5901B620-F9B4-3D44-8C03-E20DE653C5B0}</Project>
+      <Name>test-gtc_epsilon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_integer.vcxproj">
+      <Project>{BA51AF46-893E-3D82-ACED-C060D0AC72A0}</Project>
+      <Name>test-gtc_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_matrix_access.vcxproj">
+      <Project>{27F983F1-5786-32F2-B81C-3AF09BEC3133}</Project>
+      <Name>test-gtc_matrix_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_matrix_integer.vcxproj">
+      <Project>{172C9B57-7B13-31CC-9D79-39C026EA978C}</Project>
+      <Name>test-gtc_matrix_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_matrix_inverse.vcxproj">
+      <Project>{632EC284-41EF-3E2F-93DB-B7F09BA4BF5E}</Project>
+      <Name>test-gtc_matrix_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_matrix_transform.vcxproj">
+      <Project>{6FB344D9-9657-3ADB-8FBA-DF429B628B68}</Project>
+      <Name>test-gtc_matrix_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_noise.vcxproj">
+      <Project>{C9898BC4-2818-3F4C-BB8B-BDACA63D93FA}</Project>
+      <Name>test-gtc_noise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_packing.vcxproj">
+      <Project>{35D2DB1A-A408-323B-B05F-43107FF46201}</Project>
+      <Name>test-gtc_packing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_quaternion.vcxproj">
+      <Project>{2B3DB6A9-9DF4-3CF8-9E69-8CF1A965DADD}</Project>
+      <Name>test-gtc_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_random.vcxproj">
+      <Project>{450FE0CD-35C9-320F-98F3-0470C917274A}</Project>
+      <Name>test-gtc_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_reciprocal.vcxproj">
+      <Project>{0B487381-AB2B-3FE0-9D72-FC5903B34868}</Project>
+      <Name>test-gtc_reciprocal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_round.vcxproj">
+      <Project>{ED8EC8EC-2BD9-3B80-A46F-7B99BBFBA1D7}</Project>
+      <Name>test-gtc_round</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_type_aligned.vcxproj">
+      <Project>{8D1039F2-DBF6-3A72-A90B-A519DD50C52B}</Project>
+      <Name>test-gtc_type_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_type_precision.vcxproj">
+      <Project>{DDBC8208-5A0E-3455-9864-4D45EE44A693}</Project>
+      <Name>test-gtc_type_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_type_ptr.vcxproj">
+      <Project>{D8498F4C-CA17-3948-9814-9F9759E1C530}</Project>
+      <Name>test-gtc_type_ptr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_ulp.vcxproj">
+      <Project>{97D218AD-9B15-3383-857E-C7E95EC4F2B3}</Project>
+      <Name>test-gtc_ulp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtc\test-gtc_vec1.vcxproj">
+      <Project>{BF262A4B-F7C8-391D-911F-0CC7A5F3692C}</Project>
+      <Name>test-gtc_vec1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx.vcxproj">
+      <Project>{429CBF5B-2E31-3FBE-A87B-BBE919D7B016}</Project>
+      <Name>test-gtx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_associated_min_max.vcxproj">
+      <Project>{07A11F13-BC79-3B9E-9CA9-20FBD930369B}</Project>
+      <Name>test-gtx_associated_min_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_closest_point.vcxproj">
+      <Project>{3766F1A2-0A94-384C-8578-3D8F15601B9E}</Project>
+      <Name>test-gtx_closest_point</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_color_encoding.vcxproj">
+      <Project>{CB02BF53-745F-34E0-A5F1-2380A0F288AC}</Project>
+      <Name>test-gtx_color_encoding</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_color_space.vcxproj">
+      <Project>{0F66CCA0-F747-3E14-B64F-EBB6C1FE1B1C}</Project>
+      <Name>test-gtx_color_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_color_space_YCoCg.vcxproj">
+      <Project>{F5AEAB4C-6903-3463-A4A8-B0B716516C34}</Project>
+      <Name>test-gtx_color_space_YCoCg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_common.vcxproj">
+      <Project>{594E56B1-D44D-3769-BDC9-A32F8AEA8123}</Project>
+      <Name>test-gtx_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_compatibility.vcxproj">
+      <Project>{4E0F270B-23A1-318D-B2D5-859D3E71160A}</Project>
+      <Name>test-gtx_compatibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_component_wise.vcxproj">
+      <Project>{FBE4ED2D-5685-3E82-884A-AD184F957B64}</Project>
+      <Name>test-gtx_component_wise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_dual_quaternion.vcxproj">
+      <Project>{E67BD384-E768-36CC-928D-883F560FAD3A}</Project>
+      <Name>test-gtx_dual_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_easing.vcxproj">
+      <Project>{DAF189C3-7D71-36C1-9C20-2589BABAB408}</Project>
+      <Name>test-gtx_easing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_euler_angle.vcxproj">
+      <Project>{A096C01D-3252-3DAD-9B27-34D5E0EEB64C}</Project>
+      <Name>test-gtx_euler_angle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_extend.vcxproj">
+      <Project>{4D50D979-1CB0-3F67-9199-D49A1A4B5A0D}</Project>
+      <Name>test-gtx_extend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_extended_min_max.vcxproj">
+      <Project>{EDDD9FE8-AECB-3D86-8ED5-A54120A752FB}</Project>
+      <Name>test-gtx_extended_min_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_exterior_product.vcxproj">
+      <Project>{A3F28053-5EF7-3266-8392-9C632AFDC0A6}</Project>
+      <Name>test-gtx_exterior_product</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_fast_exponential.vcxproj">
+      <Project>{A20D4B21-7907-3B52-A360-24CF973BE454}</Project>
+      <Name>test-gtx_fast_exponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_fast_square_root.vcxproj">
+      <Project>{CF6764A4-6360-3372-95BF-4E2571D536EF}</Project>
+      <Name>test-gtx_fast_square_root</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_fast_trigonometry.vcxproj">
+      <Project>{0CBBBCB0-EDB4-3DCE-B6C8-9A0CC92341CD}</Project>
+      <Name>test-gtx_fast_trigonometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_functions.vcxproj">
+      <Project>{BA36404C-935B-3980-A027-663F27006D09}</Project>
+      <Name>test-gtx_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_gradient_paint.vcxproj">
+      <Project>{69C9FB6E-4CD5-3C26-AD2D-C119FD791198}</Project>
+      <Name>test-gtx_gradient_paint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_handed_coordinate_space.vcxproj">
+      <Project>{6C8AEA8E-7F87-3FB9-924D-C908516EA42D}</Project>
+      <Name>test-gtx_handed_coordinate_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_integer.vcxproj">
+      <Project>{DE8CD76D-2EE6-3D38-A88F-F5E97B4035A4}</Project>
+      <Name>test-gtx_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_intersect.vcxproj">
+      <Project>{83374B34-DBD7-303A-A149-1680D3D996CF}</Project>
+      <Name>test-gtx_intersect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_io.vcxproj">
+      <Project>{F0008903-ADCF-301C-9201-4E0A83FE9397}</Project>
+      <Name>test-gtx_io</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_load.vcxproj">
+      <Project>{78B16F75-402D-3923-BFB2-14E6BF432F8D}</Project>
+      <Name>test-gtx_load</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_log_base.vcxproj">
+      <Project>{5C1118E2-5294-3A73-8F47-4DE7AD2645B3}</Project>
+      <Name>test-gtx_log_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_matrix_cross_product.vcxproj">
+      <Project>{C28C66C2-5AE5-3E3C-B7DC-B7FD0504A786}</Project>
+      <Name>test-gtx_matrix_cross_product</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_matrix_decompose.vcxproj">
+      <Project>{466F588B-9859-3A01-BA38-CBA26E1AE26B}</Project>
+      <Name>test-gtx_matrix_decompose</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_matrix_factorisation.vcxproj">
+      <Project>{EB85DEF3-72F9-33E8-AD93-0ECBFEC1BE9A}</Project>
+      <Name>test-gtx_matrix_factorisation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_matrix_interpolation.vcxproj">
+      <Project>{EB858BB4-D956-39C1-AE99-BE8F5F77FF2F}</Project>
+      <Name>test-gtx_matrix_interpolation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_matrix_major_storage.vcxproj">
+      <Project>{EFF4CCB5-F327-3D3F-986C-CB544AD076A1}</Project>
+      <Name>test-gtx_matrix_major_storage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_matrix_operation.vcxproj">
+      <Project>{7615ADAF-4201-39B8-8A2A-4364A0A64828}</Project>
+      <Name>test-gtx_matrix_operation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_matrix_query.vcxproj">
+      <Project>{6FE6A665-D598-3775-B728-974DEC613849}</Project>
+      <Name>test-gtx_matrix_query</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_matrix_transform_2d.vcxproj">
+      <Project>{7E83F92B-4D2C-3C54-8D2E-BD74AAACDA62}</Project>
+      <Name>test-gtx_matrix_transform_2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_norm.vcxproj">
+      <Project>{605B7BAC-34D7-3737-BAB7-B484CD58974E}</Project>
+      <Name>test-gtx_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_normal.vcxproj">
+      <Project>{926C73F2-FBFF-3C23-BB5C-ED14D71AD860}</Project>
+      <Name>test-gtx_normal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_normalize_dot.vcxproj">
+      <Project>{FF2A5716-C761-3F9D-ADFA-9F0B05C982E2}</Project>
+      <Name>test-gtx_normalize_dot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_number_precision.vcxproj">
+      <Project>{1681B5E7-595C-3DC9-9599-C8EF7B91C3A9}</Project>
+      <Name>test-gtx_number_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_optimum_pow.vcxproj">
+      <Project>{3535CB8D-6A82-34F2-AEA3-5BB3AA5FBAE2}</Project>
+      <Name>test-gtx_optimum_pow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_orthonormalize.vcxproj">
+      <Project>{8463DCE5-65E4-3EDF-B0EA-C9A058EDC75E}</Project>
+      <Name>test-gtx_orthonormalize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_perpendicular.vcxproj">
+      <Project>{59D89DA3-A347-3108-8343-71FB6508474F}</Project>
+      <Name>test-gtx_perpendicular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_polar_coordinates.vcxproj">
+      <Project>{CBE87D6A-AB0D-3E40-A024-1909682916DB}</Project>
+      <Name>test-gtx_polar_coordinates</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_projection.vcxproj">
+      <Project>{043A0D7A-91D2-38EE-B642-79BA0604695F}</Project>
+      <Name>test-gtx_projection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_quaternion.vcxproj">
+      <Project>{B55F9EE4-FC33-3336-B2F7-1127D829B3E2}</Project>
+      <Name>test-gtx_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_range.vcxproj">
+      <Project>{BEB896D7-2E4C-3CFC-9C71-C7AA9C2E31BB}</Project>
+      <Name>test-gtx_range</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_rotate_normalized_axis.vcxproj">
+      <Project>{A9F78E5B-B80D-38D5-A1B7-FBF9A2A268D0}</Project>
+      <Name>test-gtx_rotate_normalized_axis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_rotate_vector.vcxproj">
+      <Project>{8852EBC5-EA35-3D6C-87D2-F36EDB102B90}</Project>
+      <Name>test-gtx_rotate_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_scalar_multiplication.vcxproj">
+      <Project>{99EBAA2B-EA56-3B86-AAA6-B1806D71752B}</Project>
+      <Name>test-gtx_scalar_multiplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_scalar_relational.vcxproj">
+      <Project>{E9C34CF5-1227-3112-8351-58045BF36EDE}</Project>
+      <Name>test-gtx_scalar_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_spline.vcxproj">
+      <Project>{53C10628-9F24-38D5-9F7B-F12844FD588F}</Project>
+      <Name>test-gtx_spline</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_string_cast.vcxproj">
+      <Project>{E7922F39-7E0D-3912-A276-9747CF63763D}</Project>
+      <Name>test-gtx_string_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_texture.vcxproj">
+      <Project>{CDB4AD45-0012-38E7-ADDC-A54EDA0DCC82}</Project>
+      <Name>test-gtx_texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_type_aligned.vcxproj">
+      <Project>{F4E39A1E-3381-3751-98C1-E577E3C43F23}</Project>
+      <Name>test-gtx_type_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_type_trait.vcxproj">
+      <Project>{7992A4D1-8A27-3DFA-896E-BAA7045AF529}</Project>
+      <Name>test-gtx_type_trait</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_vec_swizzle.vcxproj">
+      <Project>{FBAF9E31-C019-3CEB-B806-8BA2802E4864}</Project>
+      <Name>test-gtx_vec_swizzle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_vector_angle.vcxproj">
+      <Project>{5CBC4A4C-7F88-36BE-8587-132B0FA45AFA}</Project>
+      <Name>test-gtx_vector_angle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_vector_query.vcxproj">
+      <Project>{A301D37D-B005-3263-B2FD-90993B4DC519}</Project>
+      <Name>test-gtx_vector_query</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\gtx\test-gtx_wrap.vcxproj">
+      <Project>{FE1B5DAC-14C2-3169-B26A-77A56EC9BEE6}</Project>
+      <Name>test-gtx_wrap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\perf\test-perf_matrix_div.vcxproj">
+      <Project>{6007C4CA-C884-30AC-AF6B-DEA33D1FFBD1}</Project>
+      <Name>test-perf_matrix_div</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\perf\test-perf_matrix_inverse.vcxproj">
+      <Project>{9410AFDD-96D0-381A-8826-E13F68239909}</Project>
+      <Name>test-perf_matrix_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\perf\test-perf_matrix_mul.vcxproj">
+      <Project>{650F9C42-5FF5-3A93-B704-E015936E968E}</Project>
+      <Name>test-perf_matrix_mul</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\perf\test-perf_matrix_mul_vector.vcxproj">
+      <Project>{D252D9F4-170C-3FC9-9443-E48514F9E64B}</Project>
+      <Name>test-perf_matrix_mul_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\perf\test-perf_matrix_transpose.vcxproj">
+      <Project>{8B15C1CC-8237-3680-A692-F255652958DB}</Project>
+      <Name>test-perf_matrix_transpose</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\myopengl\build\dep_glm-prefix\src\dep_glm-build\test\perf\test-perf_vector_mul_matrix.vcxproj">
+      <Project>{67D7F7EF-C2E4-345E-AF42-E0347CB5CF3E}</Project>
+      <Name>test-perf_vector_mul_matrix</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

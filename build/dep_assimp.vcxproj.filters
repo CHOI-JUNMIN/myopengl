@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\fabcad988ed407d5c2259000c4c8ee3f\dep_assimp-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\fabcad988ed407d5c2259000c4c8ee3f\dep_assimp-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\fabcad988ed407d5c2259000c4c8ee3f\dep_assimp-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\fabcad988ed407d5c2259000c4c8ee3f\dep_assimp-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\fabcad988ed407d5c2259000c4c8ee3f\dep_assimp-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\fabcad988ed407d5c2259000c4c8ee3f\dep_assimp-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\fabcad988ed407d5c2259000c4c8ee3f\dep_assimp-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\fabcad988ed407d5c2259000c4c8ee3f\dep_assimp-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\8d29c4ccee4e87f3f81a87c4d3b8e324\dep_assimp-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\build\CMakeFiles\3045b5bd643017d588c125efe9092d38\dep_assimp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\myopengl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Public\myopengl\build\CMakeFiles\dep_assimp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{04608C4D-AC09-3304-B1F1-6F7262BD5752}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
