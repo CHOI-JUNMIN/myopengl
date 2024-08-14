@@ -6,10 +6,10 @@ method=git
 command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/Public/myopengl/build/dep_glm-prefix/tmp/dep_glm-gitclone.cmake
 source_dir=C:/Users/Public/myopengl/build/dep_glm-prefix/src/dep_glm
 work_dir=C:/Users/Public/myopengl/build/dep_glm-prefix/src
-repository=https://github.com/g-truc/glm.git
+repository=https://github.com/g-truc/glm
 remote=origin
 init_submodules=TRUE
 recurse_submodules=--recursive
 submodules=
-CMP0097=
+CMP0097=NEW
       

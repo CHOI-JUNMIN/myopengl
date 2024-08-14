@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/dep_stb"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/3045b5bd643017d588c125efe9092d38/dep_stb.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/8d29c4ccee4e87f3f81a87c4d3b8e324/dep_stb-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/fec7df5525de81338e9bdce4dfcca725/dep_stb-build.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/fec7df5525de81338e9bdce4dfcca725/dep_stb-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/fec7df5525de81338e9bdce4dfcca725/dep_stb-download.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/fec7df5525de81338e9bdce4dfcca725/dep_stb-install.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/fec7df5525de81338e9bdce4dfcca725/dep_stb-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/fec7df5525de81338e9bdce4dfcca725/dep_stb-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/fec7df5525de81338e9bdce4dfcca725/dep_stb-test.rule"
+		},
+		{
+			"file" : "C:/Users/Public/myopengl/build/CMakeFiles/fec7df5525de81338e9bdce4dfcca725/dep_stb-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_stb"
+		],
+		"name" : "dep_stb"
+	}
+}

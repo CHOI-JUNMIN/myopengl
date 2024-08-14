@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.25)
 
 set(PROJECT_NAME opengl_example)
 set(CMAKE_CXX_STANDARD 17)
@@ -72,18 +72,37 @@ set(DEP_LIBS ${DEP_LIBS}
 
 # GLM
 ExternalProject_Add(
-    dep_glm
-    GIT_REPOSITORY "https://github.com/g-truc/glm.git"
-    GIT_TAG "0.9.9.8"
-    GIT_SHALLOW 1
-    UPDATE_COMMAND "" 
-    PATCH_COMMAND "" 
-    TEST_COMMAND ""
-    INSTALL_COMMAND ""
-    CMAKE_ARGS
-        -DCMAKE_INSTALL_PREFIX=${DEP_INSTALL_DIR}
-)
+  dep_glm
+  GIT_REPOSITORY "https://github.com/g-truc/glm"
+  GIT_TAG "0.9.9.8"
+  GIT_SHALLOW 1
+  UPDATE_COMMAND ""
+  PATCH_COMMAND ""
+  CONFIGURE_COMMAND ""
+  BUILD_COMMAND ""
+  TEST_COMMAND ""
+  INSTALL_COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${PROJECT_BINARY_DIR}/dep_glm-prefix/src/dep_glm/glm
+    ${DEP_INSTALL_DIR}/include/glm
+  )
 set(DEP_LIST ${DEP_LIST} dep_glm)
+
+# stb
+ExternalProject_Add(
+    dep_stb
+    GIT_REPOSITORY "https://github.com/nothings/stb"
+    GIT_TAG "master"
+    GIT_SHALLOW 1
+    UPDATE_COMMAND ""
+    PATCH_COMMAND ""
+    CONFIGURE_COMMAND ""               # h파일만 써서 config build 필요x 대신 INSTALL_COMMAND지정
+    BUILD_COMMAND ""
+    TEST_COMMAND ""
+    INSTALL_COMMAND ${CMAKE_COMMAND} -E copy   
+        ${PROJECT_BINARY_DIR}/dep_stb-prefix/src/dep_stb/stb_image.h
+        ${DEP_INSTALL_DIR}/include/stb/stb_image.h
+    )
+set(DEP_LIST ${DEP_LIST} dep_stb)
 
 # 타겟 추가 및 소스 파일 지정
 add_executable(${PROJECT_NAME} 

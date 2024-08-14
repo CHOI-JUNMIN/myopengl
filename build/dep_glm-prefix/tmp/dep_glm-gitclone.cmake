@@ -36,7 +36,7 @@ set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "C:/Program Files/Git/cmd/git.exe"
-            clone --no-checkout --depth 1 --no-single-branch --config "advice.detachedHead=false" "https://github.com/g-truc/glm.git" "dep_glm"
+            clone --no-checkout --depth 1 --no-single-branch --config "advice.detachedHead=false" "https://github.com/g-truc/glm" "dep_glm"
     WORKING_DIRECTORY "C:/Users/Public/myopengl/build/dep_glm-prefix/src"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
@@ -47,7 +47,7 @@ if(number_of_tries GREATER 1)
   message(NOTICE "Had to git clone more than once: ${number_of_tries} times.")
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to clone repository: 'https://github.com/g-truc/glm.git'")
+  message(FATAL_ERROR "Failed to clone repository: 'https://github.com/g-truc/glm'")
 endif()
 
 execute_process(
